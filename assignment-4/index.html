@@ -22,6 +22,8 @@
       <h1>Pine Park Center Kids Kamp</h1>
         <p>Summer Program for Kids Aged 3-15 Years</p>
 
+<img src="./images/kids-kamp-kamping.jpg" alt="Only 1 mile away, Pine Park offers great space to set-up tents close to facilities." title="Kamping" width="1000" height="500" />
+
       <hr />
       <h2>About:</h2>
       <hr />
@@ -117,9 +119,101 @@
  </tr>
 </table>
 
-      <h2>Questionaire</h2>
-      <form action="https://www.example.com" method="get">
-        <!-- This is where the related form elements and controls will appear. -->
+      <h2>Programs you are interested in</h2>
+      <p>Please select one or more</p>
+
+      <form action="https://www.example.com" method="get" id="Programs" class="basic-forms">
+        <input type="checkbox" name="Program" value="Kampfires" /> Kampfires
+        <br />
+        <input type="checkbox" name="Program" value="Kampers" /> Kampers
+        <br />
+        <input type="checkbox" name="Program" value="Katfishes" /> Katfishes
+        <br />
+        <input type="checkbox" name="Program" value="Kickers" /> Kickers
+        <br />
+        <input type="checkbox" name="Program" value="Konquerors" /> Konquerors
+        <br />
+        <input type="checkbox" name="Program" value="Krafts" /> Krafts
+        <br />
       </form>
+
+      <h2>Cost Options</h2>
+      <p>Please select one</p>
+
+      <form action="https://www.example.com" method="get" id="Cost Option" class="basic-forms">
+        <input type="checkbox" name="service" value="1 Program ($50)" /> 1 Program ($50)
+        <br />
+        <input type="checkbox" name="service" value="2 Programs ($100)" /> 2 Programs ($100)
+        <br />
+        <input type="checkbox" name="service" value="3 Programs ($150)" /> 3 Programs ($150)
+        <br />
+        <input type="checkbox" name="service" value="4 Programs ($175)" /> 4 Programs ($175)
+        <br />
+        <input type="checkbox" name="service" value="5 Programs ($200)" /> 5 Programs ($200)
+        <br />
+        <input type="checkbox" name="service" value="6 Programs ($225)" /> 6 Programs ($150)
+        <br />
+        <input type="checkbox" name="service" value="Kickers Soccer ONLY ($25)" /> Kickers Soccer ONLY ($25)
+        <br />
+      </form>
+
+      <h2>Jersey Size</h2>
+      <p>Please select one(standard youth sizes)</p>
+
+      <form action="https://www.example.com" method="get" id="Jersey Size" class="basic-forms">
+        <input type="radio" name="level" value="3T" /> 3T
+        <br />
+        <input type="radio" name="level" value="4T" /> 4T
+        <br />
+        <input type="radio" name="level" value="5T" /> 5T
+        <br />
+        <input type="radio" name="level" value="Youth XS" /> Youth XS
+        <br />
+        <input type="radio" name="level" value="Youth Small" /> Youth Small
+        <br />
+        <input type="radio" name="level" value="Youth Medium" /> Youth Medium
+        <br />
+        <input type="radio" name="level" value="Youth Large" /> Youth Large
+        <br />
+        <input type="radio" name="level" value="Youth XL" /> Youth XL
+        <br />
+      </form>
+
+      <h2>Child's Name</h2>
+      <p>Please fill out all fields</p>
+
+      <form action="https://www.example.com" method="get" id="Name" class="basic-forms">
+        <fieldset>
+          <label>First Name:<br />
+            <input type="text" name="First Name" /></label>
+            <br />
+          <label>Middle Name:<br />
+              <input type="text" name="Middle Name" /></label>
+              <br />
+          <label>Last Name:<br />
+                <input type="text" name="Last Name" /></label>
+                <br />
+           </fieldset>
+           </form>
+
+      <h2>Child's DOB</h2>
+      <p>mm/dd/yyyy</p>
+
+      <form action="https://www.example.com" method="get" id="Name" class="basic-forms">
+        <label for="Child's Date of Birth">Child's Date of Birth:</label>
+        <input type="date" name="date" id="Child's Date of Birth" />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <h2>E-Mail</h2>
+      <p>Please enter your email address</p>
+
+      <form action="https://www.example.com" method="get" id="Name" class="basic-forms">
+        <input type="email" name=email />
+        <input type="submit" value="Submit" />
+      </form>
+
+
+
     </body>
   </html>
