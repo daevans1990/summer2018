@@ -1,0 +1,7 @@
+i. Data travels across the internet in packets. Data is broken down into 1500 byte packets which then travel to their destination. Once the packets have arrived at their destination, the computer receiving the data reassembles the packets and the target user can view the data.
+
+ii. IP addresses contain identity and location information. A website like Google has the domain name of http://www.google.com but the actual IP address is 8.8.8.8 The DNS is a system that associates domain names with IP addresses.
+
+iii. A cookie is a packet of data that is sent back and forth between an internet server and a browser to identify and track the usage of the person accessing the server.
+
+iv. Protocol, domain name, and path.
